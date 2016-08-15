@@ -35,13 +35,13 @@ dbdir = 'graph/'
 dbtype = 'IOMemory' 
 
 # data5k.nt (5k products) or demo.nt (2 triples)
-datafile = 'data5k.nt'  
+datafile = 'test.nt'  
 
 # query folder
 # has to end with a /
-querypath = "queries5kedit/"
+querypath = "test/"
 
-outputdir = "results5kedit/"
+outputdir = "res/"
 
 
 def initDir(dir):
@@ -90,7 +90,7 @@ for fpath in fileList:
                 f_out.write(str(row))
                 rescount = rescount + 1
         
-        print 'Query ' + str(qnum) + ' returned ' + str(rescount) + ' results'
+        print 'Query ' + str(qnum) + ' from file ' + fpath + ' returned ' + str(rescount) + ' results'
         
 
 g.close()
