@@ -1,0 +1,3 @@
+[submodule "JDBC4RDF"]
+	path = JDBC4RDF
+	url = https://github.com/mxhdev/JDBC4RDF.git
