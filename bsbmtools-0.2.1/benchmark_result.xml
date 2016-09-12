@@ -1,6 +1,6 @@
 <?xml version="1.0"?><bsbm>
   <querymix>
-     <scalefactor>1</scalefactor>
+     <scalefactor>10000</scalefactor>
      <warmups>0</warmups>
      <seed>808080</seed>
      <querymixruns>1</querymixruns>
